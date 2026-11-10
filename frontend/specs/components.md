@@ -21,7 +21,7 @@ No se debe agregar `business_type` a `CategoryEntry`: `/api/metrics/categories/t
 ## Componentes y layout
 
 - **`DashboardDateRangeFilter`**: control compartido de inicio y fin, colocado en la parte superior del home, inmediatamente después del encabezado y antes de KPI/gráficos. En ancho amplio, inputs y texto de ayuda en una fila; en móvil, controles apilados.
-- **`DashboardShell`**: dueño del estado común del filtro y de la carga de facets. Comparte el mismo valor del rango con home, alertas y ruta comparativa.
+- **`DashboardShell`**: dueño del estado común del filtro y de la carga de facets. Comparte el mismo valor del rango con home, alertas y ruta comparativa. No recibe props externas; es el contenedor raíz y mantiene el estado compartido.
 
 Props propuestas:
 

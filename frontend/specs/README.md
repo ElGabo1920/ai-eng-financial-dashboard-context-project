@@ -3,7 +3,6 @@
 Este documento define las tres funcionalidades del dashboard y sus contratos. Los endpoints y parámetros indicados se contrastaron con Swagger (`/docs`) y OpenAPI (`/openapi.json`). La UI descrita es una especificación: no todo el flujo está implementado actualmente.
 
 Documentos relacionados: [componentes y comportamiento](components.md), [tipos de respuesta](api-types.ts), [tipos de parámetros](param-types.ts) y [contratos y cálculos actuales](dashboard-metrics-api.md).
-
 ## Tipos compartidos
 
 Los tipos de dominio `BusinessType`, `Category` y `OperationType` están en `src/lib/financial-types.ts`. Los tipos de request/response específicos de estas funcionalidades están en `api-types.ts` y `param-types.ts`.
